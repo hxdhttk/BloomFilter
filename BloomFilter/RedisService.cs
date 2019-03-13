@@ -9,7 +9,7 @@ namespace BloomFilter
     {
         private static readonly ConnectionMultiplexer _conn;
 
-        private static IDatabase _db;
+        private readonly IDatabase _db;
 
         static RedisService()
         {
